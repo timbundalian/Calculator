@@ -1,0 +1,118 @@
+*{
+    margin: 3.6px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #e9e9e9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 400px;
+    height: 479px;
+    background-color: auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+}
+.icons{
+    justify-content: flex-start;
+    float: right;
+
+}
+.input-group input{
+    padding: 30px 10px 15px 10px;
+    border: none;
+    width: 100%;
+    text-align: right;
+    font-size: 40px;
+    background-color: rgba(231, 231, 231, 0.990); 
+    
+}
+
+.input-group input:focus{
+    border: none;
+}
+.topOperations{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+    justify-content: stretch;
+
+
+}
+.topOperations p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 15px ;
+    background-color: #f1f1f1;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+    margin-block: 1px;    
+}
+
+.topOperations p:hover{
+    background-color: #999;
+}
+.toptopOp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    color: black; 
+}
+.toptopOp p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 15px 0;
+    background-color: #f1f1f1;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+  
+}
+.toptopOp p:hover{
+    background-color: #999;
+
+}
+.numbersAndBasicOperations{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    color: black; 
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-color: white;
+    display: block;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+    margin-block: 1px;
+
+}
+
+.numbersAndBasicOperations p{
+    padding: 15px;
+}
+
+.numbersAndBasicOperations p.number{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 15px 0;
+    background-color: white;
+    
+}
+
+.numbersAndBasicOperations p:hover{
+    background-color: #ddd;
+}
